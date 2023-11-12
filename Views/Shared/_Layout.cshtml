@@ -10,29 +10,36 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">VỉtualLab</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+        <nav class="navbar navbar-expand-lg fixed-top bg-light navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img id="Icon" src="~/images/Logo.jpg" alt="MDB Logo" draggable="false" height="40" />
+                </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto align-items-center">
+                        <li class="nav-item mx-3">
+                            <div class="dropdown">
+                                <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Experiment
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" asp-controller="Lab" asp-action="KMNO4">KMNO4</a></li>
+                                    <li><a class="dropdown-item" asp-controller="Lab" asp-action="A">Cong Thuc So 2</a></li>
+                                    <li><a class="dropdown-item" asp-controller="Lab" asp-action="A">Cong Thuc So 3</a></li>
+                                </ul>
+                            </div>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        <li class="nav-item ms-3">
+                            <partial name="_LoginPartial" />
                         </li>
                     </ul>
-                    <partial name="_LoginPartial" />
                 </div>
             </div>
         </nav>
+        <br/><br/><br/>
     </header>
     <div class="container">
-        <main role="main" class="pb-3">
+        <main role="main" class="p-3">
             @RenderBody()
         </main>
     </div>

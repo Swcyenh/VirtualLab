@@ -8,5 +8,10 @@ namespace VirtualLab.Controllers
         {
             return View();
         }
+        public IActionResult KMNO4()
+        {
+            return View();
+        }
+
     }
 }
