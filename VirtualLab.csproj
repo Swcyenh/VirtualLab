@@ -8,11 +8,146 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\css\font.css" />
+    <Content Remove="wwwroot\css\grid.css" />
+    <Content Remove="wwwroot\css\mainstyle.css" />
+    <Content Remove="wwwroot\css\reset.css" />
+    <Content Remove="wwwroot\css\simstyle.css" />
+    <Content Remove="wwwroot\images\BG.gif" />
+    <Content Remove="wwwroot\images\burette_off.png" />
+    <Content Remove="wwwroot\images\burette_on.png" />
+    <Content Remove="wwwroot\images\burette_solution_bottom.png" />
+    <Content Remove="wwwroot\images\burette_solution_top.png" />
+    <Content Remove="wwwroot\images\burette_solution_zoom.png" />
+    <Content Remove="wwwroot\images\burette_stand.png" />
+    <Content Remove="wwwroot\images\burette_zoom.png" />
+    <Content Remove="wwwroot\images\burner.png" />
+    <Content Remove="wwwroot\images\burner_off.png" />
+    <Content Remove="wwwroot\images\burner_on.png" />
+    <Content Remove="wwwroot\images\conicalFlskWaterPink.png" />
+    <Content Remove="wwwroot\images\conical_flask.png" />
+    <Content Remove="wwwroot\images\conical_flask_solution.png" />
+    <Content Remove="wwwroot\images\correct.png" />
+    <Content Remove="wwwroot\images\determination of strength -- Mohr%27s Salt %28New%291.swf" />
+    <Content Remove="wwwroot\images\determination_of_strength_Mohrs_Salt.swf" />
+    <Content Remove="wwwroot\images\determination_of_strength_oxalic acid.swf" />
+    <Content Remove="wwwroot\images\drop.png" />
+    <Content Remove="wwwroot\images\dropwhite.png" />
+    <Content Remove="wwwroot\images\flame1.png" />
+    <Content Remove="wwwroot\images\flame2.png" />
+    <Content Remove="wwwroot\images\flame3.png" />
+    <Content Remove="wwwroot\images\flame4.png" />
+    <Content Remove="wwwroot\images\Intractive_scene.swf" />
+    <Content Remove="wwwroot\images\label_board.png" />
+    <Content Remove="wwwroot\images\main.swf" />
+    <Content Remove="wwwroot\images\popup.png" />
+    <Content Remove="wwwroot\images\solution_bg.png" />
+    <Content Remove="wwwroot\images\testtube_no_solution.png" />
+    <Content Remove="wwwroot\images\testtube_stand.png" />
+    <Content Remove="wwwroot\images\testtube_with_solution.png" />
+    <Content Remove="wwwroot\images\textLayout_1.0.0.595.swz" />
+    <Content Remove="wwwroot\images\violetDisolve.png" />
+    <Content Remove="wwwroot\images\wrong.png" />
+    <Content Remove="wwwroot\images\zoom_area.png" />
+    <Content Remove="wwwroot\js\jquery.i18n.js" />
+    <Content Remove="wwwroot\js\jquery.qtip-1.0.0.min.js" />
+    <Content Remove="wwwroot\js\jQueryRotate.2.2.js" />
+    <Content Remove="wwwroot\js\jquery\1.7\jquery-1.7.1.js" />
+    <Content Remove="wwwroot\js\jquery\ui\1.8.21\jquery-ui.min.js" />
+    <Content Remove="wwwroot\js\js-webshim\1.9.7\minified\extras\modernizr-custom.js" />
+    <Content Remove="wwwroot\js\nanoscroller\jquery.nanoscroller.js" />
+    <Content Remove="wwwroot\js\nanoscroller\main.js" />
+    <Content Remove="wwwroot\js\nanoscroller\nanoscroller.css" />
+    <Content Remove="wwwroot\js\nanoscroller\overthrow.min.js" />
+    <Content Remove="wwwroot\js\nanoscroller\touchready.js" />
+    <Content Remove="wwwroot\js\simcontrols.js" />
+    <Content Remove="wwwroot\js\touchconvert.js" />
+    <Content Remove="wwwroot\js\trip\trip.css" />
+    <Content Remove="wwwroot\js\trip\trip.min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\images\BG.gif" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\burette_off.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\burette_on.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\burette_solution_bottom.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\burette_solution_top.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\burette_solution_zoom.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\font.css" />
+    <None Include="wwwroot\css\grid.css" />
+    <None Include="wwwroot\css\mainstyle.css" />
+    <None Include="wwwroot\css\reset.css" />
+    <None Include="wwwroot\css\simstyle.css" />
+    <None Include="wwwroot\images\BG.gif" />
+    <None Include="wwwroot\images\burette_off.png" />
+    <None Include="wwwroot\images\burette_on.png" />
+    <None Include="wwwroot\images\burette_solution_bottom.png" />
+    <None Include="wwwroot\images\burette_solution_top.png" />
+    <None Include="wwwroot\images\burette_solution_zoom.png" />
+    <None Include="wwwroot\images\burette_stand.png" />
+    <None Include="wwwroot\images\burette_zoom.png" />
+    <None Include="wwwroot\images\burner.png" />
+    <None Include="wwwroot\images\burner_off.png" />
+    <None Include="wwwroot\images\burner_on.png" />
+    <None Include="wwwroot\images\conicalFlskWaterPink.png" />
+    <None Include="wwwroot\images\conical_flask.png" />
+    <None Include="wwwroot\images\conical_flask_solution.png" />
+    <None Include="wwwroot\images\correct.png" />
+    <None Include="wwwroot\images\determination of strength -- Mohr's Salt (New)1.swf" />
+    <None Include="wwwroot\images\determination_of_strength_Mohrs_Salt.swf" />
+    <None Include="wwwroot\images\determination_of_strength_oxalic acid.swf" />
+    <None Include="wwwroot\images\drop.png" />
+    <None Include="wwwroot\images\dropwhite.png" />
+    <None Include="wwwroot\images\flame1.png" />
+    <None Include="wwwroot\images\flame2.png" />
+    <None Include="wwwroot\images\flame3.png" />
+    <None Include="wwwroot\images\flame4.png" />
+    <None Include="wwwroot\images\Intractive_scene.swf" />
+    <None Include="wwwroot\images\label_board.png" />
+    <None Include="wwwroot\images\main.swf" />
+    <None Include="wwwroot\images\popup.png" />
+    <None Include="wwwroot\images\solution_bg.png" />
+    <None Include="wwwroot\images\testtube_no_solution.png" />
+    <None Include="wwwroot\images\testtube_stand.png" />
+    <None Include="wwwroot\images\testtube_with_solution.png" />
+    <None Include="wwwroot\images\textLayout_1.0.0.595.swz" />
+    <None Include="wwwroot\images\violetDisolve.png" />
+    <None Include="wwwroot\images\wrong.png" />
+    <None Include="wwwroot\images\zoom_area.png" />
+    <None Include="wwwroot\js\jquery.i18n.js" />
+    <None Include="wwwroot\js\jquery.qtip-1.0.0.min.js" />
+    <None Include="wwwroot\js\jQueryRotate.2.2.js" />
+    <None Include="wwwroot\js\jquery\1.7\jquery-1.7.1.js" />
+    <None Include="wwwroot\js\jquery\ui\1.8.21\jquery-ui.min.js" />
+    <None Include="wwwroot\js\js-webshim\1.9.7\minified\extras\modernizr-custom.js" />
+    <None Include="wwwroot\js\nanoscroller\jquery.nanoscroller.js" />
+    <None Include="wwwroot\js\nanoscroller\main.js" />
+    <None Include="wwwroot\js\nanoscroller\nanoscroller.css" />
+    <None Include="wwwroot\js\nanoscroller\overthrow.min.js" />
+    <None Include="wwwroot\js\nanoscroller\touchready.js" />
+    <None Include="wwwroot\js\simcontrols.js" />
+    <None Include="wwwroot\js\touchconvert.js" />
+    <None Include="wwwroot\js\trip\trip.css" />
+    <None Include="wwwroot\js\trip\trip.min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.23" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.23" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.23" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.23" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.23" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\js\language.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>
